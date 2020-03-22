@@ -1,0 +1,40 @@
+** jQuery (Motor de selección) **
+# Espera que el DOM esté cargado: $(document).ready(function(){}); otra manera de escribirlo: $(document).on('DOMContentLoaded',function(){});
+# Convertir a objeto jQuery -> $('')
+# find -> Busca el elemento pasado por parámetros.
+# parent -> Busca el padre de un elemento.
+# children -> El hijo de un elemento.
+# before/after -> Añadir antes o después de un elemento pasado por parámetros en el contenido deseado.
+# prepend -> Añadir el contenido dentro de un elemento (inicio).
+# append -> Igual que prepend pero el contenido se añade al final.
+# appendTo -> Hace lo mismo que append pero el contenido entre parentesis tiene que existir.
+# remove -> Eliminar.
+# on -> Para añadir un event listener.
+# this -> Hace referencia a objeto general. Para convertir this a jQuery hacemos: $(this).
+# data -> Permite obtenir o guardar el valor de un atributo HTML.
+# filter -> Retorna elementos que coincidan con un cierto criterio. Puede hacer de selector o función.
+# text -> Método que muestra el texto de los elementos.
+# callback -> Una función que se ejecuta cuándo todos ha terminado.
+# slideToggle -> Muestra o oculat elementos.
+# keyup -> Cuando clicamos una tecla.
+# val -> Devuelve el valor escrito en el input.
+# css -> Puede hacer de getter o setter sobre un elemento.
+# addClass -> Aplica una clase CSS hacia el objeto.
+# hasClass -> Comprueva si tiene una clase. Retorna True o False.
+# removeClass -> Elimina la clase.
+# toggleClass -> Con este método añadimos add o remove en un elemento sobre una clase.
+# Librerias para hacer animaciones y efectos con jQuery -> velocity.js / green sock
+# animate -> Genera animaciones.
+# each -> permite iterar sobre un objeto jQuery.
+# eq -> Para referirse a un index de una colección.
+# attr -> Permite asociar un atributo a un objeto jQuery. Por ej: src.
+# fadeIn -> Mostrar contenido.
+# siblings -> Obtenemos los hermanos del elemento.
+# $.ajax -> Petición ajax.
+# $.get -> Petición get.
+# $.post -> Petición post.
+# $.getJSON -> Cargar JSON.
+# show y hide -> Para mostrar o oculutar un elemento.
+
+
+https://www.bluuweb.org/jquery
